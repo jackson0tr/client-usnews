@@ -1,0 +1,19 @@
+.searchBtn.activet{
+    opacity: 0;
+    visibility: hidden;
+    scale: 0;
+    transition: 0.5s;
+}
+
+.closeBtn.activet{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    scale: 1;
+}
+
+.searchBox.activet{
+    right: 0;
+    visibility: visible;
+    transition: 0.5s;
+}

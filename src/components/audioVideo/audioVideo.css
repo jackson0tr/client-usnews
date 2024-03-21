@@ -1,0 +1,15 @@
+.audioVideoWrapper .title{
+    color: white;
+}
+
+.audioVideoWrapper .icon{
+    color: white;
+}
+
+.audioVideoWrapper .icon .left:hover{
+    color: #777;
+}
+
+.audioVideoWrapper .icon .right:hover{
+    color: #777;
+}

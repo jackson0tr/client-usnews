@@ -1,0 +1,81 @@
+// @import '../../../App.scss'
+
+$color_1: #fff;
+$color_2: crimson;
+$background-color_1: #000;
+$background-color_2: #fb4c35;
+
+
+.head {
+	cursor: pointer;
+	.logo {
+		img {
+			width: 500px;
+		}
+	}
+	
+
+}
+header {
+	background-color: $background-color_1;
+	color: $color_1;
+	ul{
+		display: flex;
+		li {
+			margin-right: 30px;
+			transition: 0.5s;
+			&:hover {
+				color: $color_2;
+				cursor: pointer;
+			}
+		}
+		a {
+			color: $color_1;
+		}
+	}
+}
+.barIcon {
+	font-size: 25px;
+	background: none;
+	color: $color_1;
+	display: none;
+	border: none;
+}
+@media screen and (max-width: 768px) {
+	.head {
+		.ad {
+			display: none;
+		}
+	}
+	header {
+		.icon {
+			display: none;
+		}
+		.flex {
+			display: none;
+		}
+		.navbar {
+			position: absolute;
+			display: block;
+			background-color: $background-color_2;
+			left: 0;
+			top: 21%;
+			transition: 0.5s;
+			width: 100%;
+			height: 45vh;
+			z-index: 5;
+			padding: 50px;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 30px;
+		}
+		ul {
+			li {
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.barIcon {
+		display: block;
+	}
+}

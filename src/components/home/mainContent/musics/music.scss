@@ -1,0 +1,32 @@
+
+.music {
+	.box {
+		margin-bottom: 30px;
+		margin-left: 2px;
+	}
+	.text {
+		padding: 0 30px;
+	}
+	.images {
+		width: 320px;
+		height: 220px;
+	}
+	img {
+		width: 320px;
+		height: 220px;
+		object-fit: cover;
+	}
+	h1 {
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.music {
+		img {
+			height: 350px;
+		}
+		.images {
+			height: 350px;
+		}
+	}
+}

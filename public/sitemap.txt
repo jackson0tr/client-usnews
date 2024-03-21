@@ -1,0 +1,7 @@
+https://blog-44.vercel.app/login
+https://blog-44.vercel.app/register
+https://blog-44.vercel.app/
+https://blog-44.vercel.app/blog/:slug
+https://blog-44.vercel.app/blog
+https://blog-44.vercel.app/search/:key
+https://blog-44.vercel.app/profile
