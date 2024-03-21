@@ -14,8 +14,8 @@ const ArticleCard = ({ post, className }) => {
         <img
           src={
             post.photo
-              // ? stables.UPLOAD_FOLDER_BASE_URL + post.photo
-              // : images.samplePostImage
+              ? stables.UPLOAD_FOLDER_BASE_URL + post.photo
+              : images.samplePostImage
           }
           alt="title"
           className="w-full object-cover object-center h-auto md:h-52 lg:h-48 xl:h-60"
@@ -35,8 +35,8 @@ const ArticleCard = ({ post, className }) => {
             <img
               src={
                 post.user.avatar
-                  // ? stables.UPLOAD_FOLDER_BASE_URL + post.user.avatar
-                  // : images.userImage
+                  ? stables.UPLOAD_FOLDER_BASE_URL + post.user.avatar
+                  : images.userImage
               }
               alt="post profile"
               className="w-9 h-9 md:w-10 md:h-10 rounded-full"
