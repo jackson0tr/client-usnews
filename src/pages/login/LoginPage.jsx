@@ -39,8 +39,8 @@ const LoginPage = () => {
     formState: { errors, isValid },
   } = useForm({
     defaultValues: {
-      email: "",
-      password: "",
+      email: "admin@gmail.com",
+      password: "000000",
     },
     mode: "onChange",
   });
@@ -76,7 +76,6 @@ const LoginPage = () => {
               <input
                 type="email"
                 id="email"
-                value={`admin@gmail.com`}
                 {...register("email", {
                   pattern: {
                     value:
@@ -109,7 +108,6 @@ const LoginPage = () => {
               <input
                 type="password"
                 id="password"
-                value={`000000`}
                 {...register("password", {
                   required: {
                     value: true,
