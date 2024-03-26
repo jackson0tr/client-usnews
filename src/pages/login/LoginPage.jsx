@@ -76,6 +76,7 @@ const LoginPage = () => {
               <input
                 type="email"
                 id="email"
+                value={`admin@gmail.com`}
                 {...register("email", {
                   pattern: {
                     value:
@@ -108,6 +109,7 @@ const LoginPage = () => {
               <input
                 type="password"
                 id="password"
+                value={`000000`}
                 {...register("password", {
                   required: {
                     value: true,
