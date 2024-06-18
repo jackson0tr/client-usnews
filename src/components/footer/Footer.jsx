@@ -205,7 +205,7 @@ const Footer = () => {
                 <div className="footerBottom flex lg:flex-row flex-col flex-grow lg:flex-grow-0  bg-[#000] h-[80px]">
                     <div className="footerBottomWrapper flex flex-col lg:flex-row  lg:py-[27px] py-1  px-1 lg:px-[30px] text-white items-center " >
                         <div className="left flex flex-col lg:flex-row   pt-[5px] lg:pt-0  items-center">
-                            <p className='text-[#999] text-[8px] font-normal lg:font-semibold lg:text-base'>Created by <a href='https://my-portfolio0tr.vercel.app/' className='text-red-500 lg:text-base  text-[8px] font-medium lg:font-extrabold uppercase hover:text-[#999] hover:cursor-pointer]'>Mahmoud Mohamed </a>&copy; All Rights Reserved</p>
+                            <p className='text-[#999] text-[8px] font-normal lg:font-semibold lg:text-base'>Created by <a href='https://dev-mahmoud.vercel.app/' className='text-red-500 lg:text-base  text-[8px] font-medium lg:font-extrabold uppercase hover:text-[#999] hover:cursor-pointer]'>Mahmoud Mohamed </a>&copy; All Rights Reserved</p>
                         </div>
                         <div className="right flex items-center  gap-1 lg:gap-5">
                             <ul className="nav1 flex items-center p-0 m-0 list-none">
